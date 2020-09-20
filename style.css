@@ -1,0 +1,317 @@
+html {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	position: relative;
+	margin: auto;
+	padding: 0 0 90px 0;
+	z-index: 0;
+	
+	max-width: 1024px;
+	width: 100%;
+
+	background-color: #FEFFFF;   
+}
+
+header {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	height: auto;
+	margin: 8px;
+	padding: 8px;
+	width: 100%;
+}
+
+.photo {
+	border-radius: 100px;
+}
+
+h1 {
+	font-family: SegoeUI, 'Segoe UI';
+	text-decoration: underline;
+	font-size: 40px;
+	text-align: center;
+	font-size: 60px;
+}
+
+.header {
+	font-family: SegoeUI, 'Segoe UI';
+	font-size: 30;
+	text-align: center;
+}
+
+.aside-plus-main {
+	display: flex;
+	max-width: 1020px;
+	width:100%;
+	height: auto;
+	margin: 0;
+	padding: 0;
+	z-index: 0;
+}
+
+.section-education {
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: column;
+
+	width: 100%;
+	height: auto;
+	z-index: 0;
+}
+
+
+.aside-common {
+	width: 320px;
+	z-index: 0; /*не удалять*/
+}
+
+.aside-about {
+	width: auto;
+	height: auto;
+	margin: 8px;
+	padding: 8px;	
+}
+
+.aside-skills {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	
+	width: auto;
+	height: auto;
+	margin: 8px; 
+	padding: 8px;	
+}
+
+.about {
+	padding: 10px;
+	
+	font-family: SegoeUI, 'Segoe UI';
+	text-align: center;
+	border-radius: 16px;
+	font-weight: bold;
+	font-size: 18px;
+
+	background: #FFE1E3; 
+}
+
+.location {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.phone {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.email {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+span {
+	padding: 8px;
+
+	font-family: SegoeUI, 'Segoe UI';
+	font-size: 18px;
+} /*нужно дать название класса*/
+
+.education {
+	text-align: center;
+	font-weight: bold;
+}
+
+.education-text {
+	margin: 16px 8px 8px 8px;
+	padding: 8px;
+
+	font-family: SegoeUI, 'Segoe UI';
+	text-align: center;
+	font-weight: bold;
+	font-size: 20px;
+	z-index: 1;
+	border-radius: 16px;
+
+	background: #FFE1E3; /*color education*/
+}
+
+.period {
+	display: flex;
+	flex-direction: row;
+	
+	margin: 8px;
+	padding: 8px;
+	
+	border-style: solid;
+	border-radius: 16px;
+	border: 8px;
+	border-style: solid;
+	border-color: #FFE1E3; /*table color*/
+	border-width: 8px;
+}
+
+.years {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 20%;
+
+	border-right: solid 8px #FFE1E3; /*grey border*/
+	border-top-right-radius: 8px;
+	border-bottom-right-radius: 8px;
+	
+	font-family: SegoeUI, 'Segoe UI';
+	font-size: 18px;
+}
+
+.university {
+	
+	width: 80%;
+	padding: 8px;
+	z-index: 0;
+
+	font-family: SegoeUI, 'Segoe UI';
+	font-size: 18px;
+}
+
+ul {
+	margin: 8px;
+	padding: 12px;
+	z-index: 0;
+
+	font-family: SegoeUI, 'Segoe UI';
+	font-size: 18px;
+}
+
+
+li {
+	color: pink;
+}
+
+.li-span {
+	color: black;
+}
+
+p {
+	font-family: SegoeUI, 'Segoe UI';
+}
+
+footer {
+	position: absolute;
+	bottom: 0;
+	width: calc(100% - 290px);
+	margin: 8px;
+	padding: 8px;
+	margin-left: 250px;
+	height: 50px;
+	
+	display: flex;
+	align-items: flex-end;
+	justify-content: center;
+	flex-direction: column;
+
+	border: solid 8px #FFE1E3;
+	border-radius: 16px;
+}
+
+.span-footer {
+	font-family: SegoeUI, 'Segoe UI';
+	font-size: 14px;
+	text-align: center;
+}
+
+.small-circle-blue {
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	top: 598px;
+	left: 166px;
+
+	border: 5px solid #282A41;
+	border-radius: 150px;
+}
+
+.big-circle-pink {
+	position: absolute;
+	width: 140px;
+	height: 140px;
+	top: 928px;
+	left:38px;
+
+	border: 8px solid #F18382;
+	border-radius: 150px;	
+}
+
+.medium-circle-blu {
+	position: absolute;
+
+	width: 80px;
+	height: 80px;
+	top: 358px;
+	left: 894px;
+	z-index: -1;
+
+	border: 8px solid #282A41;
+	border-radius: 150px;
+}
+	
+
+.small-circle-pink {
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	top: 958px;
+	left: 916px;
+	z-index: -1;
+
+	border: 8px solid #F18382;
+	border-radius: 150px;
+}
+
+.small-circle-navy {
+	position: absolute;
+	width: 15px;
+	height: 15px;
+	top: 925px;
+	left: 956px;
+	z-index: -1;
+
+	border: 5px solid #282A41;	
+	border-radius: 100px;	
+}
+
+.header-circle-blue {
+	position: absolute;
+	height: 90px;
+	width: 90px;
+	top: 70px;
+	left: 586px;
+	z-index: -1;
+
+	border: 8px solid #282A41;
+	border-radius: 150px;
+}
+
+.header-circle-pink {
+	position: absolute;
+	height: 100px;
+	width: 150px;
+	top: 0px;
+	left: 790px;
+	z-index: -1;
+
+	border: 8px solid #F18382;
+	border-top-left-radius: 250px; 
+	border-top-right-radius: 250px; 
+	border-bottom: 0;
+	transform: rotate(180deg);
+}
